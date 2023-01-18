@@ -17,6 +17,7 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
+import homeimage from '@/images/shanthaverigopalagowda.png'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
@@ -251,23 +252,39 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+          S Gopala Gowda - A Legacy of Political Activism and Social Reform
         </title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="Explore the life and legacy of Shantaveri Gopala Gowda, one of Karnataka's most prominent socialist leaders. Learn about his early involvement in the freedom movement, his introduction to socialism and his role in shaping the political landscape of the state. Discover his contributions to the 'Land for the Tiller' movement and his stance on the unification of Karnataka. A centenary tribute website"
         />
       </Head>
       <Container className="mt-9">
+        <div class="flex justify-center overflow-hidden rounded-lg py-4">
+          {/* <img
+            alt="Shri Shantaveri Gopala Gowda Hero Image"
+            src={homeimage}
+            class="absolute inset-0 h-full w-full object-cover drop-shadow-lg"
+          /> */}
+          <Image
+            src={homeimage}
+            alt="Shri Shantaveri Gopala Gowda Hero Image"
+            sizes=""
+            className="inset-0 sm:h-full sm:w-full object-cover lg:hidden"
+          />
+        </div>
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Shravan devops
+            Shri Shantaveri Gopala Gowda
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            Welcome to the official website dedicated to the life and legacy of
+            Shantaveri Gopala Gowda, one of the most prominent socialist leaders
+            of Karnataka. Here, you will discover his early involvement in the
+            freedom movement, his introduction to socialism, and his
+            contributions to shaping the political and social landscape of the
+            state. Join us as we commemorate his centenary and pay tribute to
+            his enduring legacy.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -279,11 +296,6 @@ export default function Home({ articles }) {
               href="https://instagram.com"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
             />
             <SocialLink
               href="https://linkedin.com"
