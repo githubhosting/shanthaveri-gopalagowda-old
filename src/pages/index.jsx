@@ -571,7 +571,7 @@ const timeline = [
 function Timeline() {
   return (
     <>
-      <h1 className="text-2xl font-bold tracking-tight text-insp-200 dark:text-zinc-100 sm:text-3xl mb-6">
+      <h1 className="mb-6 text-2xl font-bold tracking-tight text-insp-200 dark:text-zinc-100 sm:text-3xl">
         About Shantaveri Gopala Gowda
       </h1>
       <ol class="border-l border-gray-300">
@@ -601,7 +601,8 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          S Gopala Gowda - A Legacy of Political Activism and Social Reform
+          Shantaveri Gopala Gowda - A Legacy of Political Activism and Social
+          Reform
         </title>
         <meta
           name="description"
