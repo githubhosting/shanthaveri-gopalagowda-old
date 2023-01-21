@@ -11,6 +11,8 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
+  YouTubeIcon,
+  checkIcon,
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
@@ -267,6 +269,114 @@ function HeroPhoto() {
   )
 }
 
+function AvatarPhoto() {
+  return (
+    <section>
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+          <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+            <Image
+              alt="Shri Shantaveri Gopala Gowda Hero Image"
+              src={homeimage}
+              class="w-100% absolute inset-0 h-full object-cover drop-shadow-lg"
+            />
+          </div>
+          <div class="lg:py-24">
+            <h2 class="text-3xl font-bold text-insp-300 dark:text-white sm:text-4xl ">
+              Shri Shantaveri Gopala Gowda
+            </h2>
+            <p class="mt-4 text-gray-600 dark:text-white">
+              Welcome to the official website dedicated to the life and legacy
+              of Shantaveri Gopala Gowda, one of the most prominent socialist
+              leaders of Karnataka. Here, you will discover his early
+              involvement in the freedom movement, his introduction to
+              socialism, and his contributions to shaping the political and
+              social landscape of the state. Join us as we commemorate his
+              centenary and pay tribute to his enduring legacy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+function Example() {
+  return (
+    <div className="mt-8 lg:py-16">
+      <div className="pb-16 lg:relative lg:z-10 lg:pb-0">
+        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
+          <div className="relative lg:-my-8">
+            <div
+              aria-hidden="true"
+              className="absolute inset-x-0 top-0 h-1/2 lg:hidden"
+            />
+            <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
+              <div className="aspect-w-12 aspect-h-15 overflow-hidden rounded-xl shadow-xl dark:shadow-slate-800 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+                <img
+                  className="object-cover lg:h-full lg:w-full"
+                  src="https://user-images.githubusercontent.com/71520844/213859867-404c457a-4ffd-4f63-832f-051d83a14d97.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div className="mt-4 flex lg:col-span-2 lg:m-0 lg:pl-8">
+            <div className="mx-auto max-w-md sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+              <blockquote>
+                <div>
+                  <p className="mt-6 flex justify-center text-2xl font-bold italic text-insp-200 dark:text-zinc-100 lg:justify-start lg:text-4xl">
+                    Shantaveri Gopala Gowda
+                  </p>
+                </div>
+                <footer className="mt-6">
+                  <p className="px-1 text-base text-zinc-600 dark:text-zinc-400">
+                    Welcome to the official website dedicated to the life and
+                    legacy of Shantaveri Gopala Gowda, one of the most prominent
+                    socialist leaders of Karnataka. Here, you will discover his
+                    early involvement in the freedom movement, his introduction
+                    to socialism, and his contributions to shaping the political
+                    and social landscape of the state. Join us as we commemorate
+                    his centenary and pay tribute to his enduring legacy.
+                  </p>
+                </footer>
+                <div className="max-w-2xl">
+                  <div className="mt-6 flex justify-center gap-6 lg:justify-start">
+                    <SocialLink
+                      href="https://twitter.com"
+                      aria-label="Follow on Twitter"
+                      icon={TwitterIcon}
+                    />
+                    <SocialLink
+                      href="https://instagram.com"
+                      aria-label="Follow on Instagram"
+                      icon={InstagramIcon}
+                    />
+                    <SocialLink
+                      href="https://linkedin.com"
+                      aria-label="Follow on LinkedIn"
+                      icon={LinkedInIcon}
+                    />
+                    <SocialLink
+                      href="https://youtube.com"
+                      aria-label="Follow on Facebook"
+                      icon={YouTubeIcon}
+                    />
+                    <SocialLink
+                      href="https://facebook.com"
+                      aria-label="Follow on Facebook"
+                      icon={checkIcon}
+                    />
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function Home({ articles }) {
   return (
     <>
@@ -279,22 +389,11 @@ export default function Home({ articles }) {
           content="Explore the life and legacy of Shantaveri Gopala Gowda, one of Karnataka's most prominent socialist leaders. Learn about his early involvement in the freedom movement, his introduction to socialism and his role in shaping the political landscape of the state. Discover his contributions to the 'Land for the Tiller' movement and his stance on the unification of Karnataka. A centenary tribute website"
         />
       </Head>
-      <Container className="mt-9">
-        <div class="flex justify-center overflow-hidden rounded-lg py-4">
-          {/* <img
-            alt="Shri Shantaveri Gopala Gowda Hero Image"
-            src={homeimage}
-            class="absolute inset-0 h-full w-full object-cover drop-shadow-lg"
-          /> */}
-          <Image
-            src={homeimage}
-            alt="Shri Shantaveri Gopala Gowda Hero Image"
-            sizes=""
-            className="inset-0 object-cover sm:h-full sm:w-full lg:hidden"
-          />
-        </div>
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-insp-100 dark:text-zinc-100 sm:text-5xl">
+      <Container className="mt-3">
+        <Example />
+        {/* <AvatarPhoto /> */}
+        {/* <div className="max-w-2xl">
+          <h1 className="text-4xl font-bold tracking-tight text-insp-200 dark:text-zinc-100 sm:text-5xl">
             Shri Shantaveri Gopala Gowda
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
@@ -323,10 +422,10 @@ export default function Home({ articles }) {
               icon={LinkedInIcon}
             />
           </div>
-        </div>
+        </div> */}
       </Container>
       {/* <Photos /> */}
-      <Container className="mt-24 md:mt-28">
+      {/* <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
             {articles.map((article) => (
@@ -338,7 +437,7 @@ export default function Home({ articles }) {
             <Resume />
           </div>
         </div>
-      </Container>
+      </Container> */}
     </>
   )
 }

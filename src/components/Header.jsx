@@ -124,11 +124,14 @@ function MobileNavigation(props) {
             </div>
             <nav className="mt-6">
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-                <MobileNavItem href="/about">About</MobileNavItem>
-                <MobileNavItem href="/articles">Articles</MobileNavItem>
-                <MobileNavItem href="/projects">Projects</MobileNavItem>
-                <MobileNavItem href="/speaking">Speaking</MobileNavItem>
-                <MobileNavItem href="/uses">Uses</MobileNavItem>
+                <MobileNavItem href="/">Home</MobileNavItem>
+                <MobileNavItem href="/commeittee">
+                  Centenary Committee
+                </MobileNavItem>
+                <MobileNavItem href="/gallery">Gallery</MobileNavItem>
+                <MobileNavItem href="/letters">Letters</MobileNavItem>
+                <MobileNavItem href="/media">Media</MobileNavItem>
+                <MobileNavItem href="/contactus">Contact Us</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -177,6 +180,7 @@ function DesktopNavigation(props) {
         <NavItem href="/projects">Projects</NavItem>
         <NavItem href="/speaking">Speaking</NavItem>
         <NavItem href="/uses">Uses</NavItem> */}
+        <NavItem href="/">Home</NavItem>
         <NavItem href="/commeittee">Centenary Committee</NavItem>
         <NavItem href="/gallery">Gallery</NavItem>
         <NavItem href="/letters">Letters</NavItem>
@@ -416,14 +420,14 @@ export function Header() {
             style={{ position: 'var(--header-inner-position)' }}
           >
             <div className="relative flex gap-4">
-              {/* <div className="flex flex-1">
+              <div className="flex flex-1">
                 {!isHomePage && (
                   <AvatarContainer>
                     <Avatar />
                   </AvatarContainer>
                 )}
-              </div> */}
-              <div className="flex flex-1 justify-end md:justify-center">
+              </div>
+              <div className="flex justify-end md:justify-center">
                 <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
