@@ -321,7 +321,7 @@ function Example() {
             </div>
           </div>
           <div className="mt-4 flex lg:col-span-2 lg:m-0 lg:pl-8">
-            <div className="mx-auto max-w-md sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+            <div className="mx-auto max-w-md sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-4">
               <blockquote>
                 <div>
                   <p className="mt-6 flex justify-center text-2xl font-bold italic text-insp-200 dark:text-zinc-100 lg:justify-start lg:text-4xl">
@@ -377,6 +377,225 @@ function Example() {
   )
 }
 
+function Poem() {
+  return (
+    <div className="pt-16 lg:py-24">
+      <div className="bg-grey-900 pb-8 lg:relative lg:z-10 lg:pb-0">
+        <div className="items-center lg:ml-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-4 lg:px-8">
+          <div className="relative lg:-my-8">
+            <div
+              aria-hidden="true"
+              className="absolute inset-x-0 top-0 h-1/2 lg:hidden"
+            />
+            <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0">
+              <div className="aspect-w-10 aspect-h-12 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+                <img
+                  className="object-cover lg:h-full lg:w-full"
+                  // src="https://user-images.githubusercontent.com/71520844/213867004-ac0bcf99-94cf-43e6-a949-d1ee8f5e9b55.jpg"
+                  src="https://user-images.githubusercontent.com/71520844/213868001-d2e719ce-81b0-49e6-bbfd-392473bc8e86.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div className="mt-12 lg:col-span-2 lg:m-0 lg:pl-8">
+            <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+              <blockquote>
+                <div>
+                  <svg
+                    className="text-grey-900 h-12 w-12 opacity-25 dark:text-white"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p className="mt-6 text-base font-medium dark:text-white">
+                    ಬಂದೆ ಬಿಟ್ಟನೆ ಶಾರ್ವರಿ<br></br>
+                    ಬಡವನ ಈ ಬಾಗಿಲಿಗೂ<br></br>
+                    ಬಂದಂತೆ ಹಿಂದೆ ರಾಯಭಾರಿ ವಿದುರನ ಮನೆಗೆ.<br></br>
+                    ಹೇಗೆ ಇದಿರುಗೊಳ್ಳಲಿ ?<br></br>
+                    ಎಂತು ಸತ್ಕರಿಸಲೀ ಕಾಲಪುರುಷನ ?<br></br>
+                    ಇಲ್ಲ ಮನೆಯೊಳಗೊಂದಿನಿತು ಅವಲಕ್ಕಿ ಕೂಡ,<br></br>
+                    ವಂಚಿಸಿದೆ, ತಂದೆ ತಾಯಿ ಮಡದಿಮಕ್ಕಳ<br></br>
+                    “ನಾಳೆ ತರುವೆ” , “ನಾಳೆ ಕೊಡುವೆ” ಎಂದು<br></br>
+                    ಬರಲಿಲ್ಲ ಆ ನಾಳೆ, ನನ್ನ ನ್ನೇ ವಂಚಿಸಿಕೊಂಡೆ<br></br>
+                    ನೆಮ್ಮಿ ಎಂದೂ ಬರದ ಆ ನಂಬುಗೆಯು ನಾಳೆಯನು<br></br>
+                    ವಂಚಿಸಲಾರೆ ಇವನ , ಈ ಕಳ್ಳ ಕಾಲನ.<br></br>
+                    ಅವಗೆ ಗೊತ್ತಿರುವುದನೆ, ಹೇಳಿಕೊಳ್ಳುವ ಮತ್ತೆ<br></br>
+                    ಆದೀತು ನನ್ನ ಈ ಎದೆಭಾರ ಹಗುರ.<br></br>
+                    ಎಷ್ಟಾದರೂ ಜಗಕೆ ಮಿತ್ರನಲ್ಲವೆ ಅವನು ?<br></br>
+                    ಬೇಗನೇ ಉಣಬಡಿಸಿ ಆಡುವೆನು ಬೆಲ್ಲದ ಮಾತ,<br></br>
+                    ಶಾರ್ವರಿ, ಇಗೋ ಇತ್ತೆ ನಿನಗೆ ಸ್ವಾಗತ !<br></br>
+                  </p>
+                </div>
+                <footer className="mt-6">
+                  <p className="text-base font-medium text-white">
+                    - Giridhari
+                  </p>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+const timeline = [
+  {
+    id: 1,
+    date: '14 - March, 1923',
+    title: 'Birth',
+    description: '',
+  },
+  {
+    id: 2,
+    date: '1941',
+    title: 'Entered India’s Freedom Struggle Movement',
+    description: '',
+  },
+  {
+    id: 3,
+    date: '1942',
+    title: 'Quit India Movement',
+    description:
+      'Took active part in the Quit India Movement, Was kept in Shimoga Jail, was running a Night School for Harijans during this time.',
+  },
+  {
+    id: 4,
+    date: '1946',
+    title: 'Student Union Congress ',
+    description:
+      'Participated in the Student Union Congress of Nanjangud and left Intermediate studies.',
+  },
+  {
+    id: 5,
+    date: '1947',
+    title: 'General Secretary',
+    description: 'In Shimoga Student Congress, Fought as General Secretary',
+  },
+
+  {
+    id: 6,
+    date: '1948',
+    title: 'Instrumental in the alliance between Congress and Samajwadi Party',
+    description: '',
+  },
+  {
+    id: 7,
+    date: '1949',
+    title: 'Karnataka Samajwadi Party',
+    description:
+      'In Shimoga, organised the First Association of Karnataka Samajwadi Party',
+  },
+  {
+    id: 8,
+    date: '1951',
+    title: 'Successfully lead the Kagodu Farmers’ Satyagraha movement ',
+    description: '',
+  },
+  {
+    id: 9,
+    date: '1951',
+    title: 'Met Dr.RamamanoharLohia in Kagodu and Jayaprakash Narayan',
+    description: '',
+  },
+  // {
+  //   id: 10,
+  //   date: '1951',
+  //   title: 'Met ',
+  //   description: '',
+  // },
+  {
+    id: 11,
+    date: '1952',
+    title: 'Got Elected as M.L.A.',
+    description: 'from Mysore Vidhana Sabha',
+  },
+  {
+    id: 12,
+    date: '1955',
+    title: 'Rashtriya Samajwadi Party',
+    description:
+      'Was appointed as a key member of the Rashtriya Samajwadi Party',
+  },
+  {
+    id: 13,
+    date: '1957',
+    title: 'Thirthahalli Constituency',
+    description:
+      'Contested from Thirthahalli constituency and lost but established the Karnataka Samajwadi Youth Association.',
+  },
+  {
+    id: 14,
+    date: '1960',
+    title: 'Goa Agitation',
+    description:
+      'Took active part in the Goa Agitation and published the Samajwadi Party’s newsletter called “Margadarshi”',
+  },
+  {
+    id: 15,
+    date: '1962',
+    title: 'Elected as M.L.A',
+    description:
+      'from Thirthahalli and was heading the Samajwadi Party Workers Union in Sagara.',
+  },
+  {
+    id: 16,
+    date: '1964',
+    title: 'Marriage to Smt. Sonakka',
+    description: '',
+  },
+  {
+    id: 17,
+    date: '1967',
+    title: 'Re-elected as M.L.A',
+    description:
+      'Was re-elected as M.L.A. from the constituency of Thirthahalli. Daughter,Kum. Ila Geeta was born.',
+  },
+  {
+    id: 18,
+    date: '1968',
+    title: 'Son, Mst. Ram Manohar was born',
+    description: '',
+  },
+  {
+    id: 19,
+    date: '1971',
+    title: 'Was admitted to Victoria Hospital',
+    description:
+      'Underwent prolonged treatment for 6 months which was unsuccessful, was cremated in the Wilson Garden Crematorium.',
+  },
+]
+function Timeline() {
+  return (
+    <>
+      <h1 className="text-2xl font-bold tracking-tight text-insp-200 dark:text-zinc-100 sm:text-3xl mb-6">
+        About Shantaveri Gopala Gowda
+      </h1>
+      <ol class="border-l border-gray-300">
+        {timeline.map((item) => (
+          <li>
+            <div class="flex-start flex items-center pt-3">
+              <div class="-ml-1 mr-3 h-2 w-2 rounded-full bg-gray-300"></div>
+              <p class="text-sm font-semibold text-gray-600 dark:text-white">
+                {item.date}
+              </p>
+            </div>
+            <div class="mt-0.5 ml-4 mb-6">
+              <h4 class="mb-1.5 text-xl font-semibold text-gray-800 dark:text-white">
+                {item.title}
+              </h4>
+              <p class="mb-3 text-gray-500">{item.description}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </>
+  )
+}
+
 export default function Home({ articles }) {
   return (
     <>
@@ -423,6 +642,10 @@ export default function Home({ articles }) {
             />
           </div>
         </div> */}
+      </Container>
+      <Poem />
+      <Container>
+        <Timeline />
       </Container>
       {/* <Photos /> */}
       {/* <Container className="mt-24 md:mt-28">
