@@ -11,6 +11,22 @@ import {
   LinkedInIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
+import img1 from '@/images/gallery_img/gallery (1).png'
+import img2 from '@/images/gallery_img/gallery (2).png'
+import img3 from '@/images/gallery_img/gallery (3).png'
+import img4 from '@/images/gallery_img/gallery (4).png'
+import img5 from '@/images/gallery_img/gallery (5).png'
+import img6 from '@/images/gallery_img/gallery (6).png'
+import img7 from '@/images/gallery_img/gallery (7).png'
+import img8 from '@/images/gallery_img/gallery (8).png'
+import img9 from '@/images/gallery_img/gallery (9).png'
+import img10 from '@/images/gallery_img/gallery (10).png'
+import img11 from '@/images/gallery_img/gallery (11).png'
+import img12 from '@/images/gallery_img/gallery (12).png'
+import img13 from '@/images/gallery_img/gallery (13).png'
+import img14 from '@/images/gallery_img/gallery (14).png'
+import img15 from '@/images/gallery_img/gallery (15).png'
+import img16 from '@/images/gallery_img/gallery (16).png'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -37,22 +53,22 @@ function MailIcon(props) {
   )
 }
 const gallery = [
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery1.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery2.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery3.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery4.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery5.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery6.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery7.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery8.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery9.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery10.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery11.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery12.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery13.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery15.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery16.jpeg',
-  'http://shanthaverigopalagowda.in//siteimg/galthunb/gallery14.jpeg',
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
 ]
 
 export default function Gallery() {
