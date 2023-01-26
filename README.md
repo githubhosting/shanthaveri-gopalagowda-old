@@ -2,7 +2,7 @@
 
 Here is the link of the website hosted on Vercel [shanthaverigopalagowda.vercel.app](https://shanthaverigopalagowda.vercel.app/) 🚀
 
-This Website is developed by **_SHRAVAN_** [Portfolio](https://myselfshravan.github.io/) 🚀
+This Website is developed by Shravan : [My Portfolio](https://myselfshravan.github.io/) 🚀
 
 This is a Website for Shri Shantaveri Gopala Gowda which is using a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 

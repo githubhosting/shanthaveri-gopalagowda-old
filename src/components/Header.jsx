@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
-
+import { Menu } from '@headlessui/react'
 import { Container } from '@/components/Container'
 import avatarImage2 from '@/images/avatar.png'
 import avatarImage1 from '@/images/enhancedavatar.png'
@@ -82,6 +82,10 @@ function MobileNavItem({ href, children }) {
   )
 }
 
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
 function MobileNavigation(props) {
   return (
     <Popover {...props}>
@@ -125,9 +129,10 @@ function MobileNavigation(props) {
             <nav className="mt-6">
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
                 <MobileNavItem href="/">Home</MobileNavItem>
-                <MobileNavItem href="/commeittee">
-                  Centenary Committee
+                <MobileNavItem href="/committee">
+                  Centenary Commemoration Committee
                 </MobileNavItem>
+                <MobileNavItem href="/programs">Programs</MobileNavItem>
                 <MobileNavItem href="/gallery">Gallery</MobileNavItem>
                 <MobileNavItem href="/letters">Letters</MobileNavItem>
                 <MobileNavItem href="/media">Media</MobileNavItem>
@@ -181,7 +186,8 @@ function DesktopNavigation(props) {
         <NavItem href="/speaking">Speaking</NavItem>
         <NavItem href="/uses">Uses</NavItem> */}
         <NavItem href="/">Home</NavItem>
-        <NavItem href="/commeittee">Centenary Committee</NavItem>
+        <NavItem href="/committee">Centenary Committee</NavItem>
+        <NavItem href="/programs">Programs</NavItem>
         <NavItem href="/gallery">Gallery</NavItem>
         <NavItem href="/letters">Letters</NavItem>
         <NavItem href="/media">Media</NavItem>
