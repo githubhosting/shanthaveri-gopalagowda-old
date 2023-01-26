@@ -53,22 +53,22 @@ function MailIcon(props) {
   )
 }
 const gallery = [
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-  img11,
-  img12,
-  img13,
-  img14,
-  img15,
-  img16,
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(1).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(2).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(3).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(4).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(5).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(6).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(7).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(8).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(9).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(10).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(11).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(12).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(13).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(14).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(15).png',
+  'https://raw.githubusercontent.com/githubhosting/shanthaverigopalagowda/main/src/images/gallery_img/gallery%20(16).png',
 ]
 
 export default function Gallery() {
