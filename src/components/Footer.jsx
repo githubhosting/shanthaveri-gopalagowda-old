@@ -60,7 +60,7 @@ function Footer2() {
               </ul>
             </div>
           </div>
-          <div class="w-full px-4 sm:w-1/2 lg:mt-16 lg:w-3/12">
+          {/* <div class="w-full px-4 sm:w-1/2 lg:mt-16 lg:w-3/12">
             <div class="mb-10 w-full">
               <ul className="mt-5 justify-center ">
                 <li>
@@ -93,7 +93,7 @@ function Footer2() {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div class="w-full px-4 sm:w-1/2 lg:mt-16 lg:w-3/12">
             <div class="mb-10 w-full">
               <h4 class="text-dark mb-9 text-lg font-semibold">Follow Us On</h4>
