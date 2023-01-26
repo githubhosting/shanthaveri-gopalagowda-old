@@ -325,7 +325,7 @@ function Example() {
               <blockquote>
                 <div>
                   <p className="mt-6 flex justify-center text-2xl font-bold italic text-insp-200 dark:text-zinc-100 lg:justify-start lg:text-4xl">
-                    Shantaveri Gopala Gowda
+                    Shanthaveri Gopala Gowda
                   </p>
                 </div>
                 <footer className="mt-6">

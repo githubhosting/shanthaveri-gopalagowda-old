@@ -213,11 +213,6 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tailwindcss/aspect-ratio@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/aspect-ratio/-/aspect-ratio-0.4.2.tgz#9ffd52fee8e3c8b20623ff0dcb29e5c21fb0a9ba"
-  integrity sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==
-
 "@tailwindcss/typography@^0.5.4":
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.5.9.tgz#027e4b0674929daaf7c921c900beee80dbad93e8"
@@ -3342,7 +3337,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next@^12.3.4:
+next@^12.3.0:
   version "12.3.4"
   resolved "https://registry.yarnpkg.com/next/-/next-12.3.4.tgz#f2780a6ebbf367e071ce67e24bd8a6e05de2fcb1"
   integrity sha512-VcyMJUtLZBGzLKo3oMxrEF0stxh8HwuW976pAzlHhI3t8qJ4SROjCrSh1T24bhrbjw55wfZXAbXPGwPt5FLRfQ==
